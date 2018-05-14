@@ -1,15 +1,10 @@
 <!--?xml version="1.0"?--> 
 <package>
-  <name>iai_robosherlock_msgs</name>
-  <description>
-    - Action interfaces to trigger perception via the Robosherlock
-    perception system.
-    - service interface for setting different pre-parameterized pipelines
+  <name>robosherlock_msgs</name>
+  <description> ROS interface definitions of the RoboSherlock perception framework
   </description>
-  <version>0.0.6</version>
-  <author email="georg.bartels@cs.uni-bremen.de">Georg Bartels</author>
+  <version>0.0.1</version>
   <author email="balintbe@cs.uni-bremen.de"> Ferenc Balint-Benczedi </author>
-  <maintainer email="georg.bartels@cs.uni-bremen.de">Georg Bartels</maintainer>
   <maintainer email="balintbe@cs.uni-bremen.de">Ferenc Balint-Benczedi</maintainer>
  
  <license>BSD</license>

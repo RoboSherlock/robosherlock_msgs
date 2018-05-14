@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(iai_robosherlock_msgs)
+project(robosherlock_msgs)
 
 find_package(catkin REQUIRED COMPONENTS 
   geometry_msgs 
