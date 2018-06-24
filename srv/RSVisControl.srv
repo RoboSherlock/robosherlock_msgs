@@ -1,0 +1,4 @@
+#command string for switching annotator results: next, previous
+string command
+---
+bool success

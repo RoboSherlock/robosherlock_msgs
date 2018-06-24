@@ -8,17 +8,15 @@ find_package(catkin REQUIRED COMPONENTS
   visualization_msgs
   message_generation)
 
-add_message_files (
+add_message_files(
   FILES
-  PerceivedObject.msg
-  PerceivedObjects.msg
-  SimpleObjectPerceptionRequest.msg)
+  RSObjectDescriptions.msg
+)
 
 add_service_files(FILES
   SetRSContext.srv
-  PerceiveObject.srv
-  PizzaPerceiveObject.srv
   RSQueryService.srv
+  RSVisControl.srv
   UpdateObjects.srv
 )
 
