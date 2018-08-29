@@ -19,6 +19,7 @@ add_service_files(FILES
   RSQueryService.srv
   RSVisControl.srv
   UpdateObjects.srv
+  ExecutePipeline.srv
 )
 
 generate_messages(
